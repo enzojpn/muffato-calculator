@@ -9,7 +9,8 @@ public class ProdutoController {
 	
 	@GetMapping("produtos")
 	public String lista() {
-		return "é para enviar a lista dos produtos...exemplo {cafe , coca cola e picanha}" ;  
+		System.out.println("log no terminal"); //TODO: apagar
+		return "é para enviar a lista dos produtos...exemplo { coca cola e picanha}" ;  
 	}
 	 
 	
